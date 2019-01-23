@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div style="display: none;" id="load" class="lds-heart"><div></div></div>
+  <div id="main">
+  <div id="ribbon" class="corner-ribbon top-left sticky orange shadow"></div>
+  <div class="container">
+    <img id="thumbnail" src="images/icon.svg"></img>
+    <button class="btn" id="addPattern">Add pattern</button>
+  </div>
+
+  <div class="panel">
+      <input type="hidden" id="patternId" value="">
+      <a id="clearPatterns" class="hvr-icon-grow controlButton" title="Clear patterns"><i class="fas fa-ban hvr-icon"></i></a>
+      <a id="pickPatterns" class="hvr-icon-grow controlButton" title="Pick pattern"><i class="fas fa-check hvr-icon"></i></a>
+    </div>
+    </div>
+  <script src="jquery.min.js"></script>
+  <script src="popup.js"></script>
+  <script src="all.js"></script>
+
+</body>
+
+</html>
